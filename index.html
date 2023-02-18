@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container">
-        <form action="" method="post">
+        <form action="" method="get">
             <div class="c1">
                 <h4>Name<span class="req_star">*</span></h4>
                 <span>
@@ -31,7 +31,7 @@
             <div class="c1">
                 <h4>Your Experience<span class="req_star">*</span></h4>
                 <div class="rating">
-                    <input type="radio" id="star5" name="rating" value="5" />
+                    <input type="radio" id="star5" name="rating" value="5" required />
                     <label class="star" for="star5" title="Awesome" aria-hidden="true"></label>
                     <input type="radio" id="star4" name="rating" value="4" />
                     <label class="star" for="star4" title="Great" aria-hidden="true"></label>
@@ -64,7 +64,7 @@
                         <tbody>
                             <tr>
                               <th>Purchase</th>
-                              <td><input type="radio" name="purchase_rate" id="pr1" value="1"></td>
+                              <td><input type="radio" name="purchase_rate" id="pr1" value="1" required></td>
                               <td><input type="radio" name="purchase_rate" id="pr2" value="2"></td>
                               <td><input type="radio" name="purchase_rate" id="pr3" value="3"></td>
                               <td><input type="radio" name="purchase_rate" id="pr4" value="4"></td>
@@ -72,7 +72,7 @@
                             </tr>
                           <tr>
                             <th>Service</th>
-                            <td><input type="radio" name="service_rate" id="sr1" value="1"></td>
+                            <td><input type="radio" name="service_rate" id="sr1" value="1" required></td>
                             <td><input type="radio" name="service_rate" id="sr2" value="2"></td>
                             <td><input type="radio" name="service_rate" id="sr3" value="3"></td>
                             <td><input type="radio" name="service_rate" id="sr4" value="4"></td>
@@ -80,7 +80,7 @@
                           </tr>
                           <tr>
                             <th>Company Overall</th>
-                            <td><input type="radio" name="overall_rate" id="or1" value="1"></td>
+                            <td><input type="radio" name="overall_rate" id="or1" value="1" required></td>
                             <td><input type="radio" name="overall_rate" id="or2" value="2"></td>
                             <td><input type="radio" name="overall_rate" id="or3" value="3"></td>
                             <td><input type="radio" name="overall_rate" id="or4" value="4"></td>
@@ -107,7 +107,7 @@
                         <tbody>
                             <tr>
                               <th>Buy from us again</th>
-                              <td><input type="radio" name="buy_again" id="1" value="1"></td>
+                              <td><input type="radio" name="buy_again" id="1" value="1" required></td>
                               <td><input type="radio" name="buy_again" id="2" value="2"></td>
                               <td><input type="radio" name="buy_again" id="3" value="3"></td>
                               <td><input type="radio" name="buy_again" id="4" value="4"></td>
@@ -115,7 +115,7 @@
                             </tr>
                           <tr>
                             <th>Recommend our product to others</th>
-                            <td><input type="radio" name="prod_recommend" id="1" value="1"></td>
+                            <td><input type="radio" name="prod_recommend" id="1" value="1" required></td>
                             <td><input type="radio" name="prod_recommend" id="2" value="2"></td>
                             <td><input type="radio" name="prod_recommend" id="3" value="3"></td>
                             <td><input type="radio" name="prod_recommend" id="4" value="4"></td>
@@ -123,7 +123,7 @@
                           </tr>
                           <tr>
                             <th>Recommend our company to others</th>
-                            <td><input type="radio" name="company_recommend" id="1" value="1"></td>
+                            <td><input type="radio" name="company_recommend" id="1" value="1" required></td>
                             <td><input type="radio" name="company_recommend" id="2" value="2"></td>
                             <td><input type="radio" name="company_recommend" id="3" value="3"></td>
                             <td><input type="radio" name="company_recommend" id="4" value="4"></td>
